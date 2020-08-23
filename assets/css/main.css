@@ -2045,6 +2045,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		box-shadow: 2px 2px 5px grey;
 	}
 
 		.image:before {

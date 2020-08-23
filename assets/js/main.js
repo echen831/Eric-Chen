@@ -115,3 +115,26 @@
 			});
 
 })(jQuery);
+
+let state = 0
+
+let start = document.querySelector("header > p")
+start.style.color = 'white'
+
+const update = () => {
+	let h = document.querySelectorAll("header > p")
+	
+	h.forEach((ele, idx) => {
+		ele.style.color = state === idx ? 'white' : ''
+	})
+
+	if (state === 2) {
+		state = 0
+	} else {
+		state ++
+	}
+	
+}
+
+setInterval(update, 5000)
+
