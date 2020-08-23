@@ -116,7 +116,7 @@
 
 })(jQuery);
 
-let state = 0
+let state = 1
 
 let start = document.querySelector("header > p")
 start.style.color = 'white'
@@ -136,5 +136,8 @@ const update = () => {
 	
 }
 
-setInterval(update, 5000)
+let interval = setInterval(update, 5000)
+
+
+
 
