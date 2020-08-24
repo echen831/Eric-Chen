@@ -2213,6 +2213,16 @@ input, select, textarea {
 			}
 
 /* Labeled Icons */
+	/* .footer {
+		display: flex;
+		width: fit-content;
+		border: 1px solid black;
+	}
+
+	.footer p {
+		width: auto;
+		background-color: hotpink;
+	} */
 
 	ul.labeled-icons {
 		list-style: none;
