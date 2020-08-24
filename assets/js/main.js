@@ -136,7 +136,7 @@ const update = () => {
 	
 }
 
-let interval = setInterval(update, 5000)
+let interval = setInterval(update, 8000)
 
 
 
