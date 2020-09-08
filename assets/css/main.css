@@ -2041,6 +2041,8 @@ input, select, textarea {
 
 /* Image */
 
+
+
 	.image {
 		border-radius: 0.35em;
 		border: 0;
@@ -2048,7 +2050,7 @@ input, select, textarea {
 		position: relative;
 		width: 30rem;
 		height: 12rem;
-		box-shadow: 2px 2px 5px grey;
+		/* box-shadow: 2px 2px 5px grey; */
 	}
 
 		.image:before {
@@ -3245,6 +3247,10 @@ input, select, textarea {
 .link-icon {
 		width: 30rem;
 		height: 12rem;
+}
+
+#project {
+box-shadow: 2px 2px 5px grey;
 }
 
 
